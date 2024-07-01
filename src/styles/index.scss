@@ -1,0 +1,39 @@
+@import './functions/variables.scss';
+
+:root {
+    font-family: 'menlo', monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    margin: 0;
+    background-color: $colour__grey--palest;
+}
+
+a,
+a:hover,
+button,
+button:hover {
+    transition: all 200ms ease-in;
+}
+
+button {
+    background-color: $colour__white;
+    border: 1px solid;
+    border-color: transparentize($color: $colour__grey--dark, $amount: 0.5);
+    padding: 0.5rem;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $colour__grey--palest;
+    }
+}
+
+.wrapper {
+    margin: $spacer__default 0;
+}

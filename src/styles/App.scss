@@ -1,0 +1,13 @@
+@import '../styles/functions/variables.scss';
+@import '../styles/functions/utils.scss';
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: grid;
+}
+
+main {
+  margin: $spacer__default 0;
+}

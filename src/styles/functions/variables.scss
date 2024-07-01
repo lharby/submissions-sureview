@@ -1,0 +1,12 @@
+/* colours */
+$colour__white: #ffffff;
+$colour__grey--palest: #f6f6f6;
+$colour__grey--dark: #444;
+$colour__red: rgb(255, 82, 19);
+
+$colour__status--healthy: rgb(0, 177, 0);
+$colour__status--warning: $colour__red;
+$colour__status--error: $colour__red;
+
+/* spacers */
+$spacer__default: 1.5rem;

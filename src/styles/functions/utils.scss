@@ -1,0 +1,10 @@
+@import './variables.scss';
+
+.align-right {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.error {
+    color: $colour__status--error;
+}

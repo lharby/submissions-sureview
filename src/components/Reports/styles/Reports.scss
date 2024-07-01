@@ -1,0 +1,25 @@
+@import '../../../styles/functions/variables.scss';
+@import '../../Status/styles/Status.scss';
+
+.reports {
+    &__wrapper {
+        @extend .status__wrapper;
+    }
+
+    &__pre {
+        @extend .status__pre;
+    }
+
+    &__rows {
+        display: flex;
+
+        > div {
+            margin-right: $spacer__default * 2;
+            min-width: $spacer__default * 2;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}

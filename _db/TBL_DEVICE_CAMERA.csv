@@ -1,0 +1,24 @@
+ID,DEVICE_ID,CAMERA_NUMBER,NAME
+12,1,1,Front door
+13,1,2,Alley
+14,1,3,Garage
+15,2,2,Side door
+16,1980,1,Front door
+17,1980,2,Back door
+18,1985,1,Alleyway
+19,1984,1,Front of reception
+20,1984,2,House
+21,1984,3,Side door
+22,1984,4,Alleyway
+23,1990,1,Ginnell
+24,1991,1,Rear entrance
+25,1991,2,Front entrance
+26,1991,3,Rear exit
+27,1994,1,Front of reception
+28,1994,2,House
+29,1996,1,Side door
+30,1997,1,Alleyway
+31,1998,1,Ginnell
+32,1999,1,Rear entrance
+33,1999,2,Entrance
+34,1999,3,Exit

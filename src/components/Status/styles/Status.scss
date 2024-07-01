@@ -1,0 +1,55 @@
+@import '../../../styles/functions/variables.scss';
+
+.status {
+    &__wrapper {
+        margin-bottom: $spacer__default * 3;
+    }
+
+    &__pre {
+        unicode-bidi: embed;
+        white-space: pre;
+        background-color: transparentize($color: $colour__grey--dark, $amount: 0.9);
+        height: $spacer__default * 3;
+        justify-content: center;
+        overflow-y: scroll; 
+        padding: 2rem;
+        margin-bottom: $spacer__default;
+    }
+
+    &__input {
+        width: $spacer__default + 2;
+        padding: 0.5rem;
+        margin-left: 1rem;
+    }
+ 
+    &__video--healthy,
+    &__video--warning {
+        &:after {
+            margin-left: 3rem;
+        }
+    }
+
+    &__video--healthy {
+        color: $colour__status--healthy;
+        background-color: $colour__status--healthy;
+        &:after {
+            content: 'HEALTHY';
+        }
+    }
+
+    &__video--warning {
+        color: $colour__status--warning;
+        background-color: $colour__status--warning;
+        &:after {
+            content: 'WARNING';
+        }
+    }
+}
+
+[class*="status__video--"] {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;}
